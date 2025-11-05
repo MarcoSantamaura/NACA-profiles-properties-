@@ -1,4 +1,4 @@
-# READ ME -- NACA profile properties 
+# README -- NACA profile properties 
 Main purpose:  
 Read the coordinates of a  NACA airfoils (simmetrical and not) profile from a data file (.dat o .csv) --> which typically contains the combined (x,y) coordinates for the upper and lower edges. The objective is to determine fundamental geometric properties, specially:  
 - Area (the profile's surface area)
@@ -19,5 +19,6 @@ Read the coordinates of a  NACA airfoils (simmetrical and not) profile from a da
 + <code>Gauss_Greem_area_MomentiInerzia(coordinates)</code>: provides area, centroid and moments of inerzia. I used Gauss Green's Theorem. 
 + <code>TE_LE_camber(coordinates)</code>: finds leading edge e trailing edge. It calculates camber and thickness, in addition to  createing a graph with the points obtained from linspace for greater accuracy.
 + The last part concerns starting the functions and displaying the results obtained on the screen.
+
 
 
